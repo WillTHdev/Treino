@@ -13,9 +13,10 @@
             overflow: hidden;
         }
         div {
-            display: flex;
-            flex-direction: row;
-            justify-self: center;
+            position: absolute;
+            transform: translate(-100%, -100%);
+            top: 50%;
+            left: 50%;
             scale: 0.8;
             overflow-y: auto;
             height: 620px;
@@ -48,14 +49,13 @@
 
         body{
             margin: 0;
-            height: 90vh;
+            height: 80vh;
         }
 
         @media (max-width: 768px){
             div{
                 scale: 0.5;
                 height: 1000px;
-                margin-bottom: 400px;
             }
         }
     </style>
