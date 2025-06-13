@@ -1,1 +1,1 @@
-### https://willthdev.github.io/ESTUDOS/Treino/index.html
+### https://willthdev.github.io/Treino/index.html
